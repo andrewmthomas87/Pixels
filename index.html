@@ -1,0 +1,68 @@
+
+<!doctype html>
+
+<html>
+	
+	<head>
+		<title>Pixels</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+		<link rel="import" href="elements/elements.html">
+	</head>
+	
+	<body class="fullbleed layout vertical">
+		<paper-drawer-panel drawer-width="500px" responsive-width="1000px">
+			<paper-material drawer elevation="5">
+				<paper-header-panel mode="waterfall">
+					<paper-toolbar>
+						<span class="paper-font-title">Events</span>
+						<div title></div>
+						<paper-icon-button icon="add"></paper-icon-button>
+					</paper-toolbar>
+					<div id="events">
+						<paper-icon-item>
+							<iron-icon icon="image:movie-creation" item-icon></iron-icon>
+							<span class="paper-font-title">1</span>
+							<paper-item-body two-line>
+								<div>Robot driving across screens</div>
+								<div secondary>1:00</div>
+							</paper-item-body>
+							<paper-checkbox checked></paper-checkbox>
+							<paper-checkbox checked></paper-checkbox>
+							<paper-checkbox checked></paper-checkbox>
+						</paper-icon-item>
+						<paper-icon-item>
+							<iron-icon icon="image:photo-library" item-icon></iron-icon>
+							<span class="paper-font-title">2</span>
+							<paper-item-body two-line>
+								<div>Slideshow</div>
+								<div secondary>3:15</div>
+							</paper-item-body>
+							<paper-checkbox checked></paper-checkbox>
+							<paper-checkbox></paper-checkbox>
+							<paper-checkbox></paper-checkbox>
+						</paper-icon-item>
+						<paper-icon-item>
+							<iron-icon icon="image:image" item-icon></iron-icon>
+							<span class="paper-font-title">3</span>
+							<paper-item-body two-line>
+								<div>UACR Logo</div>
+								<div secondary>0:30</div>
+							</paper-item-body>
+							<paper-checkbox></paper-checkbox>
+							<paper-checkbox checked></paper-checkbox>
+							<paper-checkbox checked></paper-checkbox>
+						</paper-icon-item>
+					</div>
+				</paper-header-panel>
+			</paper-material>
+			<paper-header-panel main>
+				<paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button><br>
+				<div id="visual">
+				</div>
+			</paper-header-panel>
+		</paper-drawer-panel>
+	</body>
+	
+</html>

@@ -1,0 +1,19 @@
+
+body {
+	background-color: #fafafa;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+div#events {
+	padding: 0 0.5em;
+}
+
+div#visual {
+	position: relative;
+	width: calc(100% - 1.5em);
+	height: calc(60vh - 3em);
+	margin: 1.5em;
+	margin-right: 0;
+	overflow-x: auto;
+}
